@@ -1,5 +1,9 @@
 # Configuration Service Implementation Prompt
 
+## Instructions
+
+This is a plan only session. I would like the plan to be output to src/projects/ai-course/module1/prompts/3-web-api-plan.md once complete. Do not make any assumptions. ask me if you need to clarify anything.
+
 ## Objective
 
 Build a full-stack Configuration Service application according to the specifications in [1-web-api-specs.md](./1-web-api-specs.md). This service will manage applications and their configuration values through a REST API with a React frontend.
