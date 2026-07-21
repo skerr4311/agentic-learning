@@ -26,10 +26,10 @@ Implementing a full-stack Configuration Service application with TypeScript, Nod
 
 ### Phase 4: API Routes Implementation
 
-- [ ] 4.1 Create Health Check Route
-- [ ] 4.2 Create Applications Routes
-- [ ] 4.3 Create Configurations Routes
-- [ ] 4.4 Create Main Application Setup
+- [x] 4.1 Create Health Check Route
+- [x] 4.2 Create Applications Routes
+- [x] 4.3 Create Configurations Routes
+- [x] 4.4 Create Main Application Setup
 
 ### Phase 5: Frontend Foundation
 
