@@ -12,6 +12,20 @@ import { AppError, createErrorResponse } from "../utils/errorHandler";
 
 const applicationService = new ApplicationService();
 
+const ErrorResponseSchema = {
+  type: "object",
+  properties: {
+    error: {
+      type: "object",
+      properties: {
+        type: { type: "string" },
+        message: { type: "string" },
+        status: { type: "number" },
+      },
+    },
+  },
+};
+
 export default async function applicationRoutes(fastify: FastifyInstance) {
   // Create application
   fastify.post(
@@ -30,6 +44,9 @@ export default async function applicationRoutes(fastify: FastifyInstance) {
               updatedAt: { type: "string" },
             },
           },
+          400: ErrorResponseSchema,
+          409: ErrorResponseSchema,
+          500: ErrorResponseSchema,
         },
       },
     },
@@ -42,7 +59,7 @@ export default async function applicationRoutes(fastify: FastifyInstance) {
       } catch (error) {
         if (error instanceof AppError) {
           reply
-            .status(error.status)
+            .status(error.status as 400 | 409 | 500)
             .send(createErrorResponse(error.type, error.message, error.status));
         } else {
           reply
