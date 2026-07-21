@@ -73,4 +73,4 @@
 - **Model**: gpt-5.5 - medium
 - **Input**: `src/projects/ai-course/module1/prompts/3-web-api-plan.md`
 - **Cost**: $0.0000
-- **Reflections**: Using cline with my work subscription. I was only able to use two s
+- **Reflections**: Using cline with my work subscription. I was only able to use two models. I have completed the task and can assume that I have used double the tokens completeing it. Not ideal. I will be using my work sub going forward with this course unless I can find some free providers I can use.
