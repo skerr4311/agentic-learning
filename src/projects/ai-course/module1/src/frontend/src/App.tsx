@@ -1,17 +1,8 @@
 import { AppBar, Container, Toolbar, Typography } from "@mui/material";
 import { Navigate, Route, Routes } from "react-router-dom";
 
-const ApplicationsPagePlaceholder = () => (
-  <Typography variant="h4" component="h1">
-    Applications
-  </Typography>
-);
-
-const ApplicationDetailsPagePlaceholder = () => (
-  <Typography variant="h4" component="h1">
-    Application Details
-  </Typography>
-);
+import ApplicationDetailsPage from "./pages/ApplicationDetailsPage";
+import ApplicationsPage from "./pages/ApplicationsPage";
 
 function App() {
   return (
@@ -27,13 +18,10 @@ function App() {
       <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
         <Routes>
           <Route path="/" element={<Navigate to="/applications" replace />} />
-          <Route
-            path="/applications"
-            element={<ApplicationsPagePlaceholder />}
-          />
+          <Route path="/applications" element={<ApplicationsPage />} />
           <Route
             path="/applications/:applicationId"
-            element={<ApplicationDetailsPagePlaceholder />}
+            element={<ApplicationDetailsPage />}
           />
         </Routes>
       </Container>

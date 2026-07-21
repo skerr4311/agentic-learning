@@ -51,8 +51,8 @@ Implementing a full-stack Configuration Service application with TypeScript, Nod
 
 ### Phase 8: Pages Implementation
 
-- [ ] 8.1 Create Applications Page
-- [ ] 8.2 Create Application Details Page
+- [x] 8.1 Create Applications Page
+- [x] 8.2 Create Application Details Page
 
 ### Phase 9: Testing Implementation
 
@@ -69,5 +69,5 @@ Implementing a full-stack Configuration Service application with TypeScript, Nod
 
 ## Current Status
 
-Completed Phase 7: Frontend components are in place.
-Next phase: Phase 8 Pages Implementation.
+Completed Phase 8: Pages implementation is in place.
+Next phase: Phase 9 Testing Implementation.
