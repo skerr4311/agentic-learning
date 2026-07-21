@@ -50,5 +50,27 @@
 - **Context**: Clean
 - **Model**: Claude Sonnet 4
 - **Input**: `src/projects/ai-course/module1/prompts/3-web-api-plan.md`
-- **Cost**: $0.3665
-- **Reflections**:
+- **Cost**: $6.4392
+- **Reflections**: I have run out of tokens by the time I hit step 5.1. I am not going to be feeding any more money into this project. I will continue using free if I can.
+
+#### 3.1 Continue execute the plan
+
+- **Prompt**: `Read src/projects/ai-course/module1/prompts/3-web-api-plan.md and read src/projects/ai-course/module1/IMPLEMENTATION_PROGRESS.md to see where we are upto and where you need to start working from. I would like each plan step to be treated as a commit point. so stop at the end of each step, prompt me to commit and wait for me to prompt you to continue.`
+- **Tool**: Cline
+- **Mode**: Act
+- **Context**: Clean
+- **Model**: Cohere: North Mini Code (free)
+- **Input**: `src/projects/ai-course/module1/prompts/3-web-api-plan.md`
+- **Cost**: $0.0000
+- **Reflections**: This failed `{"message":"OpenRouter Mid-Stream Error: Stream terminated with error status but no error details provided","modelId":"cohere/north-mini-code:free"}`
+
+#### 3.2 Continue execute the plan
+
+- **Prompt**: `Read src/projects/ai-course/module1/prompts/3-web-api-plan.md and read src/projects/ai-course/module1/IMPLEMENTATION_PROGRESS.md to see where we are upto and where you need to start working from. I would like each plan step to be treated as a commit point. so stop at the end of each step, prompt me to commit and wait for me to prompt you to continue.`
+- **Tool**: Cline
+- **Mode**: Act
+- **Context**: Clean
+- **Model**: gpt-5.5 - medium
+- **Input**: `src/projects/ai-course/module1/prompts/3-web-api-plan.md`
+- **Cost**: $0.0000
+- **Reflections**: Using cline with my work subscription. I was only able to use two s
