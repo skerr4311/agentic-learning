@@ -9,8 +9,8 @@ Implementing a full-stack Configuration Service application with TypeScript, Nod
 ### Phase 1: Backend Foundation
 
 - [x] 1.1 Initialize Backend Project & Install Dependencies
-- [ ] 1.2 Configure Backend package.json Scripts & TypeScript
-- [ ] 1.3 Create Environment Configuration
+- [x] 1.2 Configure Backend package.json Scripts & TypeScript
+- [x] 1.3 Create Environment Configuration
 
 ### Phase 2: Database Schema & Prisma Setup
 
