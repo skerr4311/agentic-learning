@@ -14,8 +14,8 @@ Implementing a full-stack Configuration Service application with TypeScript, Nod
 
 ### Phase 2: Database Schema & Prisma Setup
 
-- [ ] 2.1 Create Prisma Schema
-- [ ] 2.2 Initialize Database & Generate Client
+- [x] 2.1 Create Prisma Schema
+- [x] 2.2 Initialize Database & Generate Client
 
 ### Phase 3: Backend Core Implementation
 
